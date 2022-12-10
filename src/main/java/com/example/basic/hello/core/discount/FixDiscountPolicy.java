@@ -1,4 +1,4 @@
-package com.example.basic.discount;
+package com.example.basic.hello.core.discount;
 
 import com.example.basic.member.Grade;
 import com.example.basic.member.Member;
@@ -9,7 +9,11 @@ public class FixDiscountPolicy implements DiscountPolicy {
 
     @Override
     public int discount(Member member, int price) {
-        if(member.getGrade() == Grade.VIP) return discountFixAcmount;
-        else return 0;
+        if(member.getGrade() == Grade.VIP) {
+            return discountFixAcmount;
+        }
+        else {
+            return 0;
+        }
     }
 }
