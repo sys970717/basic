@@ -1,4 +1,4 @@
-package com.example.basic.discount;
+package com.example.basic.hello.core.discount;
 
 import com.example.basic.member.Member;
 

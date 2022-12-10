@@ -8,7 +8,8 @@ import com.example.basic.member.MemberServiceImpl;
 public class MemberApp {
     // 순수 자바코드로 만들기
     public static void main(String[] args) {
-        MemberService memberService = new MemberServiceImpl();
+        AppConfig appconfig = new AppConfig();
+        MemberService memberService = appconfig.memberService();
         Member member = new Member(1L, "memberA", Grade.VIP);
         memberService.join(member);
 
