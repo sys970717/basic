@@ -1,5 +1,6 @@
-package com.example.basic.hello.core.discount;
+package example.basic.hello.core.discount;
 
+import com.example.basic.hello.core.discount.RateDiscountPolicy;
 import com.example.basic.member.Grade;
 import com.example.basic.member.Member;
 import org.assertj.core.api.Assertions;

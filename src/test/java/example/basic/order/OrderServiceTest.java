@@ -1,4 +1,4 @@
-package com.example.basic.order;
+package example.basic.order;
 
 import com.example.basic.AppConfig;
 import com.example.basic.hello.core.order.Order;

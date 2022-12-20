@@ -1,6 +1,9 @@
-package com.example.basic.member;
+package example.basic.member;
 
 import com.example.basic.AppConfig;
+import com.example.basic.member.Grade;
+import com.example.basic.member.Member;
+import com.example.basic.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
